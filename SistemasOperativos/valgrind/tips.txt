@@ -1,0 +1,3 @@
+-Valgrind me indica el numero de linea donde se encuentra mi error en el codigo fuente, para ubicar la linea facilmente, configurar en eclipse:
+
+window>preferences>General>Editors>Text Editors> y le hago check en la casilla "show line numbers"

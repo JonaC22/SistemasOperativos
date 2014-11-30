@@ -1,0 +1,107 @@
+[INFO] 05:44:14:598 Plataforma/(7371:7371): Plataforma en socket 4 
+
+[INFO] 05:44:19:959 Plataforma/(7371:7371): Se aceptó la conexión del socket:6
+
+[INFO] 05:47:20:197 Plataforma/(7679:7679): Plataforma en socket 4 
+
+[INFO] 05:47:27:833 TEST/(7679:7679): El Deadlock tiene socket 6
+[INFO] 05:47:27:865 TEST/(7679:7679): Crea todas las colas 
+
+[INFO] 05:47:27:871 TEST/(7679:7679): Inicializa todos los semaforos
+
+[INFO] 05:47:27:888 TEST/(7679:7679): Crea el logger del planificador
+
+[INFO] 05:48:29:559 TEST/(7679:7679): se procede a liberar los personajes bloqueados por los recursos H1 de @Mario para el socket de nivel 6
+
+[INFO] 05:48:29:589 TEST/(7679:7679): se saco de la cola de bloqueados al personaje @Mario que libera recursos y se lo devolvio a la cola de listos
+
+[INFO] 05:48:31:82 TEST/(7679:7679): se procede a liberar los personajes bloqueados por los recursos H1:Z1 de $Goomba para el socket de nivel 6
+
+[INFO] 05:48:44:225 TEST/(7679:7679): se procede a liberar los personajes bloqueados por los recursos M1:Z1 de *Luigi para el socket de nivel 6
+
+[INFO] 05:48:54:259 TEST/(7679:7679): se procede a liberar los personajes bloqueados por los recursos H1 de @Mario para el socket de nivel 6
+
+[INFO] 05:49:20:167 TEST/(7679:7679): se procede a liberar los personajes bloqueados por los recursos H1:M1 de @Mario para el socket de nivel 6
+
+[INFO] 05:51:08:330 Plataforma/(7753:7753): Plataforma en socket 4 
+
+[INFO] 05:51:10:591 TEST/(7753:7753): El Deadlock tiene socket 3
+[INFO] 05:51:10:630 TEST/(7753:7753): Crea todas las colas 
+
+[INFO] 05:51:10:643 TEST/(7753:7753): Inicializa todos los semaforos
+
+[INFO] 05:51:10:657 TEST/(7753:7753): Crea el logger del planificador
+
+[INFO] 05:53:10:741 TEST/(7753:7753): <INTERBLOQUEO> se recibio el resumen de personajes involucrados, estos son *Luigi:$Goomba:@Mario, durante el nivel Deadlock
+
+[INFO] 05:53:10:746 TEST/(7753:7753): <INTERBLOQUEO> la victima seleccionada es *Luigi
+
+[INFO] 05:53:10:788 TEST/(7753:7753): Se envió mensaje de muerte al personaje *Luigi con socket 10
+
+[INFO] 05:53:10:805 TEST/(7753:7753): codigo 10, largo 24, data Deadlock
+[INFO] 05:53:10:807 TEST/(7753:7753): <INTERBLOQUEO> se le solicita al nivel informar los recursos que tiene asignados la victima *Luigi del nivel Deadlock
+
+[INFO] 05:53:10:809 TEST/(7753:7753): <INTERBLOQUEO> se espera una respuesta del nivel
+[INFO] 05:53:12:827 TEST/(7753:7753): <INTERBLOQUEO> los recursos que tiene asignado el personaje *Luigi a matar del nivel Deadlock son: M1, son 1 diferentes
+[INFO] 05:53:12:834 TEST/(7753:7753): se procede a liberar los personajes bloqueados por los recursos M1 de *Luigi para el socket de nivel 3
+
+[INFO] 05:53:12:848 TEST/(7753:7753): se saco de la cola de bloqueados al personaje *Luigi que libera recursos y se lo devolvio a la cola de listos
+
+[INFO] 05:53:15:15 TEST/(7753:7753): se procede a liberar los personajes bloqueados por los recursos H1:M1 de @Mario para el socket de nivel 3
+
+[INFO] 05:53:15:90 TEST/(7753:7753): se procede a liberar los personajes bloqueados por los recursos H1:Z1 de $Goomba para el socket de nivel 3
+
+[INFO] 05:53:43:42 TEST/(7753:7753): se procede a liberar los personajes bloqueados por los recursos M1:Z1 de *Luigi para el socket de nivel 3
+
+[INFO] 05:55:31:133 Plataforma/(7924:7924): Plataforma en socket 4 
+
+[INFO] 05:55:34:754 TEST/(7924:7924): El Deadlock tiene socket 7
+[INFO] 05:55:34:773 TEST/(7924:7924): Crea todas las colas 
+
+[INFO] 05:55:34:780 TEST/(7924:7924): Inicializa todos los semaforos
+
+[INFO] 05:55:34:799 TEST/(7924:7924): Crea el logger del planificador
+
+[INFO] 05:57:34:894 TEST/(7924:7924): <INTERBLOQUEO> se recibio el resumen de personajes involucrados, estos son $Goomba:@Mario:*Luigi, durante el nivel Deadlock
+
+[INFO] 05:57:34:899 TEST/(7924:7924): <INTERBLOQUEO> la victima seleccionada es $Goomba
+
+[INFO] 05:57:34:917 TEST/(7924:7924): Se envió mensaje de muerte al personaje $Goomba con socket 10
+
+[INFO] 05:57:34:965 TEST/(7924:7924): codigo 10, largo 25, data Deadlock
+[INFO] 05:57:34:967 TEST/(7924:7924): <INTERBLOQUEO> se le solicita al nivel informar los recursos que tiene asignados la victima $Goomba del nivel Deadlock
+
+[INFO] 05:57:34:969 TEST/(7924:7924): <INTERBLOQUEO> se espera una respuesta del nivel
+[INFO] 05:57:36:977 TEST/(7924:7924): <INTERBLOQUEO> los recursos que tiene asignado el personaje $Goomba a matar del nivel Deadlock son: Z1, son 1 diferentes
+[INFO] 05:57:36:986 TEST/(7924:7924): se procede a liberar los personajes bloqueados por los recursos Z1 de $Goomba para el socket de nivel 7
+
+[INFO] 05:57:36:995 TEST/(7924:7924): se saco de la cola de bloqueados al personaje $Goomba que libera recursos y se lo devolvio a la cola de listos
+
+[INFO] 05:57:39:285 TEST/(7924:7924): se procede a liberar los personajes bloqueados por los recursos M1:Z1 de *Luigi para el socket de nivel 7
+
+[INFO] 05:57:39:360 TEST/(7924:7924): se procede a liberar los personajes bloqueados por los recursos H1:M1 de @Mario para el socket de nivel 7
+
+[INFO] 05:57:59:66 TEST/(7924:7924): se procede a liberar los personajes bloqueados por los recursos H1:Z1 de $Goomba para el socket de nivel 7
+
+[INFO] 06:04:03:615 Plataforma/(8221:8221): Plataforma en socket 4 
+
+[INFO] 06:04:10:781 TEST/(8221:8221): El Deadlock tiene socket 3
+[INFO] 06:04:10:798 TEST/(8221:8221): Crea todas las colas 
+
+[INFO] 06:04:10:803 TEST/(8221:8221): Inicializa todos los semaforos
+
+[INFO] 06:04:10:808 TEST/(8221:8221): Crea el logger del planificador
+
+[INFO] 06:04:42:697 TEST/(8221:8221): se procede a liberar los personajes bloqueados por los recursos M1:Z1 de *Luigi para el socket de nivel 3
+
+[INFO] 06:05:41:800 Plataforma/(8287:8287): Plataforma en socket 4 
+
+[INFO] 06:05:43:928 TEST/(8287:8287): El Deadlock tiene socket 7
+[INFO] 06:05:43:946 TEST/(8287:8287): Crea todas las colas 
+
+[INFO] 06:05:43:952 TEST/(8287:8287): Inicializa todos los semaforos
+
+[INFO] 06:05:43:957 TEST/(8287:8287): Crea el logger del planificador
+
+[INFO] 06:06:05:758 TEST/(8287:8287): se procede a liberar los personajes bloqueados por los recursos H1:M1 de @Mario para el socket de nivel 7
+

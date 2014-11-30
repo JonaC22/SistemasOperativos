@@ -1,0 +1,115 @@
+[INFO] 05:47:28:892 TEST/(7679:7691): se agrego el nuevo personaje @Mario socket:10
+[INFO] 05:47:28:927 TEST/(7679:7691): Todos los personajes conectados: 
+[INFO] 05:47:28:929 TEST/(7679:7691): @Mario:10
+[INFO] 05:47:31:265 TEST/(7679:7691): se agrego el nuevo personaje *Luigi socket:3
+[INFO] 05:47:31:266 TEST/(7679:7691): Todos los personajes conectados: 
+[INFO] 05:47:31:266 TEST/(7679:7691): @Mario:10
+[INFO] 05:47:31:267 TEST/(7679:7691): *Luigi:3
+[INFO] 05:47:36:67 TEST/(7679:7691): se agrego el nuevo personaje $Goomba socket:7
+[INFO] 05:47:36:122 TEST/(7679:7691): Todos los personajes conectados: 
+[INFO] 05:47:36:123 TEST/(7679:7691): @Mario:10
+[INFO] 05:47:36:123 TEST/(7679:7691): *Luigi:3
+[INFO] 05:47:36:128 TEST/(7679:7691): $Goomba:7
+[INFO] 05:47:52:447 TEST/(7679:7691): El personaje @Mario consiguió el recurso: H.
+
+[INFO] 05:47:59:428 TEST/(7679:7691): El personaje *Luigi consiguió el recurso: M.
+
+[INFO] 05:48:07:819 TEST/(7679:7691): El personaje $Goomba consiguió el recurso: Z.
+
+[INFO] 05:48:20:945 TEST/(7679:7691): El personaje @Mario se bloqueo por el recurso M
+[INFO] 05:48:30:967 TEST/(7679:7691): El personaje $Goomba consiguió el recurso: H. 
+[INFO] 05:48:30:983 TEST/(7679:7691): El personaje $Goomba con socket 7 terminó este nivel.
+
+[INFO] 05:48:30:3 TEST/(7679:7691): $Goomba se sacó de la lista de conectados porque terminó su plan de niveles. Ahora quedan 2
+[INFO] 05:48:31:27 TEST/(7679:7691): Todos los personajes conectados: 
+[INFO] 05:48:31:28 TEST/(7679:7691): @Mario:10
+[INFO] 05:48:31:29 TEST/(7679:7691): *Luigi:3
+[INFO] 05:48:44:155 TEST/(7679:7691): El personaje *Luigi consiguió el recurso: Z. 
+[INFO] 05:48:44:160 TEST/(7679:7691): El personaje *Luigi con socket 3 terminó este nivel.
+
+[INFO] 05:48:44:173 TEST/(7679:7691): *Luigi se sacó de la lista de conectados porque terminó su plan de niveles. Ahora quedan 1
+[INFO] 05:48:44:173 TEST/(7679:7691): Todos los personajes conectados: 
+[INFO] 05:48:44:175 TEST/(7679:7691): @Mario:10
+[INFO] 05:48:48:956 TEST/(7679:7691): El personaje @Mario consiguió el recurso: H.
+
+[INFO] 05:48:54:765 TEST/(7679:7691): El personaje @Mario murió por SIGTERM
+[INFO] 05:49:00:562 TEST/(7679:7691): El personaje @Mario murió por SIGTERM
+[INFO] 05:49:02:679 TEST/(7679:7691): El personaje @Mario murió por SIGTERM
+[INFO] 05:49:12:180 TEST/(7679:7691): El personaje @Mario consiguió el recurso: H.
+
+[INFO] 05:51:11:956 TEST/(7753:7762): se agrego el nuevo personaje *Luigi socket:10
+[INFO] 05:51:11:962 TEST/(7753:7762): Todos los personajes conectados: 
+[INFO] 05:51:11:964 TEST/(7753:7762): *Luigi:10
+[INFO] 05:51:13:716 TEST/(7753:7762): se agrego el nuevo personaje $Goomba socket:11
+[INFO] 05:51:13:724 TEST/(7753:7762): Todos los personajes conectados: 
+[INFO] 05:51:13:724 TEST/(7753:7762): *Luigi:10
+[INFO] 05:51:13:725 TEST/(7753:7762): $Goomba:11
+[INFO] 05:51:21:894 TEST/(7753:7762): se agrego el nuevo personaje @Mario socket:6
+[INFO] 05:51:21:895 TEST/(7753:7762): Todos los personajes conectados: 
+[INFO] 05:51:21:896 TEST/(7753:7762): *Luigi:10
+[INFO] 05:51:21:902 TEST/(7753:7762): $Goomba:11
+[INFO] 05:51:21:903 TEST/(7753:7762): @Mario:6
+[INFO] 05:51:35:170 TEST/(7753:7762): El personaje *Luigi consiguió el recurso: M.
+
+[INFO] 05:51:40:421 TEST/(7753:7762): El personaje $Goomba consiguió el recurso: Z.
+
+[INFO] 05:51:53:511 TEST/(7753:7762): El personaje @Mario consiguió el recurso: H.
+
+[INFO] 05:52:07:614 TEST/(7753:7762): El personaje $Goomba se bloqueo por el recurso H
+[INFO] 05:52:17:127 TEST/(7753:7762): El personaje @Mario se bloqueo por el recurso M
+[INFO] 05:52:21:298 TEST/(7753:7762): El personaje *Luigi se bloqueo por el recurso Z
+[INFO] 05:53:25:18 TEST/(7753:7762): El personaje *Luigi consiguió el recurso: M.
+
+[INFO] 05:53:42:985 TEST/(7753:7762): El personaje *Luigi consiguió el recurso: Z. 
+[INFO] 05:53:42:986 TEST/(7753:7762): El personaje *Luigi con socket 10 terminó este nivel.
+
+[INFO] 05:53:43:9 TEST/(7753:7762): *Luigi se sacó de la lista de conectados porque terminó su plan de niveles. Ahora quedan 0
+[INFO] 05:53:43:11 TEST/(7753:7762): Todos los personajes conectados: 
+[INFO] 05:55:35:209 TEST/(7924:7933): se agrego el nuevo personaje $Goomba socket:10
+[INFO] 05:55:35:362 TEST/(7924:7933): Todos los personajes conectados: 
+[INFO] 05:55:35:380 TEST/(7924:7933): $Goomba:10
+[INFO] 05:55:37:608 TEST/(7924:7933): se agrego el nuevo personaje @Mario socket:3
+[INFO] 05:55:37:609 TEST/(7924:7933): Todos los personajes conectados: 
+[INFO] 05:55:37:609 TEST/(7924:7933): $Goomba:10
+[INFO] 05:55:37:610 TEST/(7924:7933): @Mario:3
+[INFO] 05:55:39:458 TEST/(7924:7933): se agrego el nuevo personaje *Luigi socket:12
+[INFO] 05:55:39:458 TEST/(7924:7933): Todos los personajes conectados: 
+[INFO] 05:55:39:475 TEST/(7924:7933): $Goomba:10
+[INFO] 05:55:39:475 TEST/(7924:7933): @Mario:3
+[INFO] 05:55:39:476 TEST/(7924:7933): *Luigi:12
+[INFO] 05:56:01:12 TEST/(7924:7933): El personaje $Goomba consiguió el recurso: Z.
+
+[INFO] 05:56:07:993 TEST/(7924:7933): El personaje @Mario consiguió el recurso: H.
+
+[INFO] 05:56:11:698 TEST/(7924:7933): El personaje *Luigi consiguió el recurso: M.
+
+[INFO] 05:56:29:878 TEST/(7924:7933): El personaje $Goomba se bloqueo por el recurso H
+[INFO] 05:56:35:187 TEST/(7924:7933): El personaje @Mario se bloqueo por el recurso M
+[INFO] 05:56:45:897 TEST/(7924:7933): El personaje *Luigi se bloqueo por el recurso Z
+[INFO] 05:57:49:479 TEST/(7924:7933): El personaje $Goomba consiguió el recurso: Z.
+
+[INFO] 05:57:59:12 TEST/(7924:7933): El personaje $Goomba consiguió el recurso: H. 
+[INFO] 05:57:59:14 TEST/(7924:7933): El personaje $Goomba con socket 10 terminó este nivel.
+
+[INFO] 05:57:59:36 TEST/(7924:7933): $Goomba se sacó de la lista de conectados porque terminó su plan de niveles. Ahora quedan 0
+[INFO] 05:57:59:38 TEST/(7924:7933): Todos los personajes conectados: 
+[INFO] 06:04:13:567 TEST/(8221:8232): se agrego el nuevo personaje *Luigi socket:10
+[INFO] 06:04:13:586 TEST/(8221:8232): Todos los personajes conectados: 
+[INFO] 06:04:13:593 TEST/(8221:8232): *Luigi:10
+[INFO] 06:04:24:596 TEST/(8221:8232): El personaje *Luigi consiguió el recurso: M.
+
+[INFO] 06:04:42:487 TEST/(8221:8232): El personaje *Luigi consiguió el recurso: Z. 
+[INFO] 06:04:42:492 TEST/(8221:8232): El personaje *Luigi con socket 10 terminó este nivel.
+
+[INFO] 06:04:42:555 TEST/(8221:8232): *Luigi se sacó de la lista de conectados porque terminó su plan de niveles. Ahora quedan 0
+[INFO] 06:04:42:569 TEST/(8221:8232): Todos los personajes conectados: 
+[INFO] 06:05:44:890 TEST/(8287:8296): se agrego el nuevo personaje @Mario socket:10
+[INFO] 06:05:44:892 TEST/(8287:8296): Todos los personajes conectados: 
+[INFO] 06:05:44:915 TEST/(8287:8296): @Mario:10
+[INFO] 06:05:55:959 TEST/(8287:8296): El personaje @Mario consiguió el recurso: H.
+
+[INFO] 06:06:05:523 TEST/(8287:8296): El personaje @Mario consiguió el recurso: M. 
+[INFO] 06:06:05:526 TEST/(8287:8296): El personaje @Mario con socket 10 terminó este nivel.
+
+[INFO] 06:06:05:582 TEST/(8287:8296): @Mario se sacó de la lista de conectados porque terminó su plan de niveles. Ahora quedan 0
+[INFO] 06:06:05:584 TEST/(8287:8296): Todos los personajes conectados: 

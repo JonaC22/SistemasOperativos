@@ -1,0 +1,12 @@
+GRABAR:Z:20:averquepasaconestoel
+GRABAR:A:12:Hola Soy Leo
+BORRAR:Z
+GRABAR:B:10:holasoyleo
+BORRAR:B
+GRABAR:X:14:ySiEraTanBueno
+GRABAR:Y:15:PorqueNoCompilo
+GRABAR:H:14:yanosequeponer
+GRABAR:L:24:' ' <-Esto es un espacio
+GRABAR:#:3:ALF
+GRABAR:%:14:YOMELLAMORALPH
+GRABAR:Z:10:repetididZ

@@ -1,0 +1,14 @@
+prueba el serializador - deserializador
+
+no darle bolilla a los warnings que pueda tener el testSerializador.c porque el
+eclipse esta buggueado.
+
+para usarlo:
+-crear un proyecto testSerializacion en Eclipse 
+y que este dependa del proyecto serializacion.
+-añadir el codigo fuente de testSerializacion.
+-build project.
+
+Si quiero darle Run en Eclipse (de esta forma puedo usar la herramienta para debuguear)
+-en Run Configuration, 
+en la solapa enviroment añadir la variable LD_LIBRARY_PATH y la ruta de libserializacion.o

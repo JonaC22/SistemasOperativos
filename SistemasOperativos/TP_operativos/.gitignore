@@ -1,0 +1,10 @@
+*.o
+*.d
+*.mk
+makefile
+
+.metadata/**
+
+**/**/.dump_internal
+
+**/**/.dump_lib

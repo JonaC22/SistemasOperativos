@@ -1,0 +1,55 @@
+Primero que nada, subo un test en la carpeta testlibray que NO pude probar porque no sé por qué motivo no puedo usar las cosas de threads. Si ustedes pueden, 
+compilen el código y cuando ejecutan debería enviar 4 mensajes y salir. Díganme si funciona o no jajaja.
+matiamati
+Tienen las funciones:
+- crear_socket_servidor
+- conectar_socket
+- aceptar_y_atender_conexiones
+- enviar_mensaje
+- recibir_mensaje
+- cerrar_socket
+- crear_socket (que no la tienen que usar ustedes)
+
+
+int crear_socket_servidor(char* ip, int puerto);
+-Recibe: ip y puerto.
+-Devuelve: identificador del socket creado
+-Descrpición: Dados un ip y puerto, crea un servidor escuchando en dichos ip y puerto y retorna el identificador de dicho servidor.
+
+int conectar_socket(char* ip, int puerto);
+Recibe: ip y puerto
+Devuelve: Identificador del socket conectado
+Descripción: Dados un ip y puerto, CREA Y CONECTA un socket a dichos ip y puerto. 
+Se usa para clientes: uno hace int cliente = conectar_socket(ipServidor, puertoServidor) y ya sabe que el socket está creado y conectado.
+
+
+int aceptar_y_atender_conexiones(int socketEscucha);
+Recibe: Identificador de socket en escucha (servidor)
+Devuelve: 0 si todo sale bien, 1 si hubo un error.
+Descripción: El socket servidor en modo escucha, se pone a aceptar conexiones, recibir mensajes y responderlos. Por ahora recibe un
+mensaje X en string y devuelve "recibi tu mensaje". Soporta muchos clientes distintos mandándole.
+
+int enviar_mensaje(int unSocket, char* mensaje);
+Recibe: Identificador de socket que envía y mensaje a enviar
+Devuelve: 0 si salió todo bien, 1 si hubo error.
+Descripción: Envía un mensaje dado a través de un socket dado.
+
+int recibir_mensaje(int unSocket, char* mensaje, int tamanioMensaje);
+Recibe: Identificador de socket que recibe, mensaje a recibir y el tamaño del mensaje.
+Devuelve: lo mismo que enviar.
+Descripción: Recibe a través de un socket dado, un mensaje de longitud dada. 
+
+void cerrar_socket(int unSocket);
+Recibe: Identificador de socket
+Devuelve:-
+Descripción: cierra un socket.
+
+//-----------------------------------------------//
+crear_socket no la van a usar ustedes, es la función que llaman las otras para obtener un socket nuevo.
+
+int crear_socket();
+-Recibe: -
+-Devuelve: identificador de nuevo socket.
+-Descripción: crea un nuevo socket.
+
+
